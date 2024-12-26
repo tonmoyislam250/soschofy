@@ -10,11 +10,11 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/findyfy.git
+    git clone https://github.com/tonmoyislam250/soschofy.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd findyfy
+    cd soschofy
     ```
 3. Install the dependencies:
     ```sh
@@ -38,11 +38,14 @@ Before you begin, ensure you have met the following requirements:
 
 2. Set up Cloudinary:
     - Go to your Cloudinary dashboard.
-    - Copy your Cloudinary URL and paste it into the `.env` file.
+        - Copy the Cloudinary credentials and paste them into the `.env` file in the root of your project.
 
-    ```env
-    REACT_APP_CLOUDINARY_URL=your_cloudinary_url
-    ```
+        ```env
+        NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name
+        NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=your_upload_preset
+        NEXT_PUBLIC_CLOUDINARY_API_KEY=your_api_key
+        NEXT_PUBLIC_CLOUDINARY_API_SECRET=your_api_secret
+        ```
 
 ## Running the Application
 
